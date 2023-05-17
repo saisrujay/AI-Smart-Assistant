@@ -4,10 +4,10 @@ import pyaudio
 import wave
 import base64
 
-from keys import api_key
+#from keys import api_key
 
 # Set up OpenAI authentication
-openai.api_key = api_key
+openai.api_key = "Your api key"
 
 # Audio settings
 FORMAT = pyaudio.paInt16

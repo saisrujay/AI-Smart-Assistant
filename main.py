@@ -4,12 +4,12 @@ import pyttsx3
 import tkinter as tk
 import threading
 from audio import Input
-from keys import api_key
+#from keys import api_key
 
 # from keys import API_KEY
 from audio import Input
 
-openai.api_key = api_key
+openai.api_key = "Your api key"
 
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
